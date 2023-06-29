@@ -1,0 +1,18 @@
+.about {
+  &--left {
+    display: none;
+  }
+  &--right {
+    width: 90%;
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 20px;
+    }
+  }
+}

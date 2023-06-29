@@ -2,3 +2,20 @@
   --mulish: 'Mulish', sans-serif;
   --raleway: 'Raleway', sans-serif;
 }
+
+h2 {
+  margin: 0;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--blue-dark);
+  font-family: var(--mulish);
+  font-weight: 400;
+}
+
+p {
+  margin: 0;
+  font-size: 12px;
+  font-family: var(--mulish);
+  color: var(--gray-dark);
+  line-height: 1.4em;
+}

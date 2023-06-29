@@ -1,16 +1,15 @@
+import About from './components/About'
+import Banner from './components/Banner'
 import Header from './components/Header'
+import Services from './components/Services'
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <Header />
-      <h1>
-        Hey, <span className="name-temp">we're GetStaffed</span>
-      </h1>
-      <h3>We link your business with overseas employees</h3>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Banner />
+      <About />
+      <Services />
     </div>
   )
 }

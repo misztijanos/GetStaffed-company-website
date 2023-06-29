@@ -1,0 +1,46 @@
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+
+  font-family: var(--raleway);
+
+  &--left {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+
+    &--hi {
+      font-weight: 700;
+      font-size: 40px;
+      span {
+        font-weight: 400;
+      }
+    }
+
+    &--description {
+      font-weight: 400;
+      font-size: 22px;
+      max-width: 350px;
+      span {
+        text-decoration: underline;
+      }
+      margin-bottom: 10px;
+    }
+  }
+  .socials {
+    margin-top: 10px;
+  }
+
+  &--right {
+    width: 80%;
+    img {
+      width: 100%;
+    }
+  }
+}

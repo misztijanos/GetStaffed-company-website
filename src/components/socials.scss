@@ -1,0 +1,13 @@
+.socials {
+  display: flex;
+  flex-align: center;
+  gap: 30px;
+  li {
+    font-family: var(--mulish);
+    font-size: 12px;
+    font-weight: 400;
+    color: var(--gray-medium);
+    text-transform: uppercase;
+    //letter-spacing: 0.1em;
+  }
+}

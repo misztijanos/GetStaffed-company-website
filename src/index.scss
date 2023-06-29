@@ -1,1 +1,7 @@
 @forward 'global-styles';
+
+.app {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
